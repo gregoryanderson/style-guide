@@ -890,6 +890,236 @@ h3 {
 }
 
 
+
+
+#button--four {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  // border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+  // border-radius: 16px 0px 16px 0px;
+  border: 3px solid #e36521;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color:#e36521;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#button--four:hover #slide {
+  left: 0;
+  color: #e36521;
+}
+
+#button--four section {
+  position: relative;
+  color: #0A2A3B;
+  // transition: all .35s ease-Out;
+}
+
+
+#button--four:active div {
+  background-color: #FFF;
+  // border-radius: 0px 16px;
+}
+
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
+}
+
+
+#button--four-two {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #e36521;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+
+#button--four-two:active{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px 16px;
+}
+
+#button--four-three {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #e36521;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color:#e36521;
+  cursor: pointer;
+}
+
+#button--four-three:active{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px 16px;
+}
+
+#button--five {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 16px 0px;
+  border-bottom: 3px solid #e36521;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color:#e36521;
+  cursor: pointer;
+}
+
+#button--five:active {
+  background-color: #0A2A3B;
+  border-bottom: 3px solid #e36521;
+  border-top: 3px solid #e36521;
+  border-radius: 0px 16px;
+}
+
+#button--five-two {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #0A2A3B;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+#button--five-two::placeholder {
+  color: #0A2A3B;
+  opacity: 1;
+}
+
+#button--two-two:active {
+  border-bottom: 3px solid #e36521;
+  border-top: 3px solid #e36521;
+  border-radius: 0px 16px;
+}
+
+#button--five-three {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #0A2A3B;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+#button--five-three:active {
+  background-color:  #e36521;
+  border-bottom: 3px solid #0A2A3B;
+  border-top: 3px solid #0A2A3B;
+  border-radius: 0px 16px;
+}
+
+#button--six {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #0A2A3B;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color: #0A2A3B;
+  cursor: pointer;
+}
+
+
+#button--six:active {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0px 16px;
+}
+
+#button--six-two {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #0A2A3B;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color: #0A2A3B;
+  cursor: pointer;
+}
+
+
+#button--six-two:active {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0px 16px;
+}
+
+#button--six-three {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #0A2A3B;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color: #0A2A3B;
+  cursor: pointer;
+}
+
+
+#button--six-three:active {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px 16px;
+}
+
+
+
 main {
   flex: 1 1 100%;
   padding: 25px 25px 50px;
