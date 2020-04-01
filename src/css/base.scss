@@ -896,11 +896,9 @@ h3 {
   width: 100%;
   max-width: 280px;
   padding: 10px 15px;
-  // border: none;
   cursor: pointer;
   outline: none;
   background-color: rgba(255, 255, 255, 1);
-  // border-radius: 16px 0px 16px 0px;
   border: 3px solid #e36521;
   font-size: 20px;
   font-weight: 300;
@@ -920,15 +918,12 @@ h3 {
 #button--four section {
   position: relative;
   color: #0A2A3B;
-  // transition: all .35s ease-Out;
 }
 
 
 #button--four:active div {
   background-color: #FFF;
-  // border-radius: 0px 16px;
 }
-
 
 #slide {
   width: 100%;
@@ -949,19 +944,60 @@ h3 {
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 16px 0px 16px 0px;
-  border-bottom: 3px solid #e36521;
+  // border-radius: 16px 0px 16px 0px;
+  border: 3px solid #e36521;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
   cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+#button--four-two:hover #slide1 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--four-two section {
+  position: relative;
+  color: #0A2A3B;
 }
 
 
-#button--four-two:active{
+#button--four-two:active div {
   background-color: rgba(255, 255, 255, 1);
-  border-radius: 0px 16px;
 }
+
+
+#slide1 {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
+}
+
+#slide2 {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
+}
+
+
+// #button--four-two:active{
+//   background-color: rgba(255, 255, 255, 1);
+//   border-radius: 0px 16px;
+// }
 
 #button--four-three {
   width: 100%;
