@@ -1022,26 +1022,51 @@ h3 {
   bottom: 0;
 }
 
+
+
 #button--five {
   width: 100%;
   max-width: 280px;
   padding: 10px 15px;
   border: none;
   outline: none;
-  border-radius: 16px 0px;
-  border-bottom: 3px solid #e36521;
+  border: 3px solid #e36521;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
   color:#e36521;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #0A2A3B;
 }
 
-#button--five:active {
-  background-color: #0A2A3B;
-  border-bottom: 3px solid #e36521;
-  border-top: 3px solid #e36521;
-  border-radius: 0px 16px;
+#button--five:hover #slide5-1 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--five section {
+  position: relative;
+  color: #0A2A3B;
+}
+
+
+#button--five:active div {
+  background-color: #FFF;
+}
+
+#slide5-1 {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
 }
 
 #button--five-two {
@@ -1050,23 +1075,41 @@ h3 {
   padding: 10px 15px;
   border: none;
   outline: none;
-  border-radius: 16px 0px 16px 0px;
-  border-bottom: 3px solid #0A2A3B;
+  border: 3px solid #0A2A3B;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
+  color:#FFF
 }
 
-#button--five-two::placeholder {
+#button--five-two:hover #slide5-2 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--five-two section {
+  position: relative;
+  // color: #0A2A3B;
+}
+
+
+#button--five-two:active div {
+  background-color: #0A2A3B;
+}
+
+#slide5-2 {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
   color: #0A2A3B;
-  opacity: 1;
-}
-
-#button--two-two:active {
-  border-bottom: 3px solid #e36521;
-  border-top: 3px solid #e36521;
-  border-radius: 0px 16px;
 }
 
 #button--five-three {
@@ -1075,19 +1118,40 @@ h3 {
   padding: 10px 15px;
   border: none;
   outline: none;
-  border-radius: 16px 0px 16px 0px;
-  border-bottom: 3px solid #0A2A3B;
+  border: 3px solid #0A2A3B;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
 }
 
-#button--five-three:active {
-  background-color:  #e36521;
-  border-bottom: 3px solid #0A2A3B;
-  border-top: 3px solid #0A2A3B;
-  border-radius: 0px 16px;
+#button--five-three:hover #slide5-3 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--five-three section {
+  position: relative;
+  color: #0A2A3B;
+}
+
+
+#button--five-three:active div {
+  background-color: #FFF;
+}
+
+#slide5-3 {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
 }
 
 #button--six {
@@ -1103,13 +1167,36 @@ h3 {
   font-weight: 300;
   transition: 0.2s ease-out;
   color: #0A2A3B;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
+}
+
+#button--four:hover #slide6-1 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--four section {
+  position: relative;
+  color: #0A2A3B;
 }
 
 
-#button--six:active {
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 0px 16px;
+#button--four:active div {
+  background-color: #FFF;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
 }
 
 #button--six-two {
@@ -1125,13 +1212,37 @@ h3 {
   font-weight: 300;
   transition: 0.2s ease-out;
   color: #0A2A3B;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
+}
+
+#button--four:hover #slide6-2 {
+  left: 0;
+  color: #e36521;
 }
 
 
-#button--six-two:active {
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 0px 16px;
+#button--four section {
+  position: relative;
+  color: #0A2A3B;
+}
+
+
+#button--four:active div {
+  background-color: #FFF;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
 }
 
 #button--six-three {
@@ -1147,13 +1258,36 @@ h3 {
   font-weight: 300;
   transition: 0.2s ease-out;
   color: #0A2A3B;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
+}
+
+#button--four:hover #slide6-3 {
+  left: 0;
+  color: #e36521;
+}
+
+#button--four section {
+  position: relative;
+  color: #0A2A3B;
 }
 
 
-#button--six-three:active {
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 0px 16px;
+#button--four:active div {
+  background-color: #FFF;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -280px;
+  background: #e36521;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  color: #0A2A3B;
 }
 
 
