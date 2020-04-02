@@ -1510,17 +1510,20 @@ h3 {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
-  color:#FFF
+  color:#FFF;
+  border-radius: 50px;
 }
 
 #button--eight-two:hover #circle8-2 {
-  left: 0;
-  color: #e36521;
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -140px;
+  left: -140px;
 }
 
 #button--eight-two section {
   position: relative;
-  // color: #0A2A3B;
 }
 
 
@@ -1529,14 +1532,16 @@ h3 {
 }
 
 #circle8-2 {
-  width: 100%;
-  height: 100%;
-  left: -280px;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
   background: #e36521;
   position: absolute;
-  transition: all .35s ease-Out;
-  bottom: 0;
-  color: #0A2A3B;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
 }
 
 #button--eight-three {
@@ -1553,11 +1558,15 @@ h3 {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 #button--eight-three:hover #circle8-3 {
-  left: 0;
-  color: #e36521;
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -140px;
+  left: -140px;
 }
 
 #button--eight-three section {
@@ -1571,14 +1580,16 @@ h3 {
 }
 
 #circle8-3 {
-  width: 100%;
-  height: 100%;
-  left: -280px;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
   background: #e36521;
   position: absolute;
-  transition: all .35s ease-Out;
-  bottom: 0;
-  color: #0A2A3B;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
 }
 
 #button--nine {
@@ -1592,21 +1603,30 @@ h3 {
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
-  color: #0A2A3B;
+  color: #FFF;
   position: relative;
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 #button--nine:hover #circle9-1 {
-  left: 0;
-  color: #e36521;
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -140px;
+  left: -140px;
 }
 
 #button--nine section {
   position: relative;
   color: #0A2A3B;
+}
+
+#button--nine:active section {
+  position: relative;
+  color: #e36521;
 }
 
 
@@ -1615,14 +1635,16 @@ h3 {
 }
 
 #circle9-1 {
-  width: 100%;
-  height: 100%;
-  left: -280px;
-  background: #e36521;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #0A2A3B;
   position: absolute;
-  transition: all .35s ease-Out;
-  bottom: 0;
-  color: #0A2A3B;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
 }
 
 #button--nine-two {
@@ -1641,11 +1663,15 @@ h3 {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 #button--nine-two:hover #circle9-2 {
-  left: 0;
-  color: #e36521;
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -140px;
+  left: -140px;
 }
 
 
@@ -1659,15 +1685,22 @@ h3 {
   background-color: #FFF;
 }
 
+#button--nine-two:active section {
+  position: relative;
+  color: #e36521;
+}
+
 #circle9-2 {
-  width: 100%;
-  height: 100%;
-  left: -280px;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
   background: #e36521;
   position: absolute;
-  transition: all .35s ease-Out;
-  bottom: 0;
-  color: #0A2A3B;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
 }
 
 #button--nine-three {
@@ -1686,11 +1719,15 @@ h3 {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 #button--nine-three:hover #circle9-3 {
-  left: 0;
-  color: #e36521;
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -140px;
+  left: -140px;
 }
 
 #button--nine-three section {
@@ -1709,14 +1746,16 @@ h3 {
 }
 
 #circle9-3 {
-  width: 100%;
-  height: 100%;
-  left: -280px;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
   background: #0A2A3B;
   position: absolute;
-  transition: all .35s ease-Out;
-  bottom: 0;
-  color: #0A2A3B;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
 }
 
 
