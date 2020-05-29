@@ -1832,11 +1832,7 @@ h3 {
 }
 
 #button--ten-two:hover #circle10-2 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0;
 }
 
 
@@ -1856,16 +1852,14 @@ h3 {
 }
 
 #circle10-2 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
   background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--ten-three {
@@ -1888,21 +1882,21 @@ h3 {
 }
 
 #button--ten-three:hover #circle10-3 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0px;
+}
+
+#button--ten-three:hover #circle10-3 {
+  left: 0;
 }
 
 #button--10-three section {
   position: relative;
-  color: #e36521;
+  color: #FFF;
 }
 
 #button--10-three:active section {
   position: relative;
-  color: #0A2A3B;
+  color: #FFF;
 }
 
 
@@ -1911,16 +1905,14 @@ h3 {
 }
 
 #circle10-3 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
   background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--eleven {
@@ -1943,11 +1935,11 @@ h3 {
 }
 
 #button--eleven:hover #circle11-1 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0px;
+}
+
+#button--eleven:hover #circle11-1 {
+  left: 0;
 }
 
 #button--eleven section {
@@ -1966,16 +1958,14 @@ h3 {
 }
 
 #circle11-1 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
-  background: #0A2A3B;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
+  background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--eleven-two {
@@ -1998,13 +1988,8 @@ h3 {
 }
 
 #button--eleven-two:hover #circle11-2 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0px;
 }
-
 
 #button--eleven-two section {
   position: relative;
@@ -2022,16 +2007,14 @@ h3 {
 }
 
 #circle11-2 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
   background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--eleven-three {
@@ -2054,12 +2037,9 @@ h3 {
 }
 
 #button--eleven-three:hover #circle11-3 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0px;
 }
+
 
 #button--eleven-three section {
   position: relative;
@@ -2077,16 +2057,14 @@ h3 {
 }
 
 #circle11-3 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
-  background: #0A2A3B;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
+  background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--twelve {
@@ -2108,22 +2086,18 @@ h3 {
   border-radius: 50px;
 }
 
-#button--twelve:hover #circle12-1 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
-}
-
 #button--twelve section {
   position: relative;
   color: #0A2A3B;
 }
 
+#button--twelve:hover #circle12-1 {
+  left: 0;
+}
+
 #button--twelve:active section {
   position: relative;
-  color: #e36521;
+  color: #0A2A3B;
 }
 
 
@@ -2132,16 +2106,14 @@ h3 {
 }
 
 #circle12-1 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
-  background: #0A2A3B;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
+  background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--twelve-two {
@@ -2164,11 +2136,7 @@ h3 {
 }
 
 #button--twelve-two:hover #circle12-2 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0;
 }
 
 
@@ -2188,16 +2156,14 @@ h3 {
 }
 
 #circle12-2 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
   background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 #button--twelve-three {
@@ -2211,7 +2177,7 @@ h3 {
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
-  color: #e36521;
+  color: #FFF;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -2220,16 +2186,12 @@ h3 {
 }
 
 #button--twelve-three:hover #circle12-3 {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  top: -140px;
-  left: -140px;
+  left: 0;
 }
 
 #button--twelve-three section {
   position: relative;
-  color: #e36521;
+  color: #FFF;
 }
 
 #button--twelve-three:active section {
@@ -2243,16 +2205,14 @@ h3 {
 }
 
 #circle12-3 {
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  line-height: 40px;
-  border-radius: 50%;
-  background: #0A2A3B;
+  transform: rotate(50deg);
+  width: 100%;
+  height: 300%;
+  left: -350px;
+  top: -40px;
+  background: #e36521;
   position: absolute;
-  transition: all .5s ease-Out;
-  top: 20px;
-  left: 70px;
+  transition: all .3s ease-Out;
 }
 
 
